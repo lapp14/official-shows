@@ -1,0 +1,10 @@
+{
+  "2020-12-31": { 
+    "Venue": "Test Venue",
+    "ShowTitle": "John Thomas with friends.",
+    "Doors": "9:00 PM",
+    "StartTime": "10:00 PM",
+    "Price": "$10",
+    "Notes": "All ages, 19+"
+  }
+}
