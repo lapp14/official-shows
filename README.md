@@ -16,3 +16,9 @@
     }
   </script>
   ```
+
+  ## Formats
+  - Data read in must be a json object
+  - The json object must have a set of objects, whose key is a date in the format `yyyy-mm-dd`, representing the date of the show
+  - Shows should be in descending order of shows, most recent (future or past) at the top
+  - object keys will be added here later
