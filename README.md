@@ -21,7 +21,17 @@
   - Data read in must be a json object
   - The json object must have a set of objects, whose key is a date in the format `yyyy-mm-dd`, representing the date of the show
   - Shows should be in descending order of shows, most recent (future or past) at the top
-  - object keys will be added here later
+  - Example:
+    ```json
+    "2020-12-31": { 
+      "venue": "Test Venue",
+      "showTitle": "John Thomas with friends.",
+      "doors": "9:00 PM",
+      "startTime": "10:00 PM",
+      "price": "$10",
+      "notes": "All ages, 19+"
+    }
+    ```
 
   ## Loading Animation
   - To add a loading animation while the ajax request is happening, simply put some markup or a loading graphic in the div
